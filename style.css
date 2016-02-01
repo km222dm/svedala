@@ -11,6 +11,12 @@ a {
     text-decoration: none;
 }
 
+
+#content {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
 input:focus {
     outline: none;
 }
@@ -20,7 +26,6 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    max-width: 1400px;
     width: 100%;
     font-size: 0;
     top: 0;
@@ -29,7 +34,6 @@ input:focus {
 
 #header {
     background: url(img/headerLila.png) no-repeat;
-    max-width: 1400px;
     height: 160px;
     width: 100%;
 }
@@ -110,7 +114,6 @@ input:focus {
 
 .menuPics {
     max-height: 240px;
-    max-width: 1400px;
     width: 100%;
     overflow:hidden;
 }
