@@ -17,6 +17,11 @@
                 <img src="img/linkArrow.png" id="shortLinkButton"/>
             </div>
         </div>
+        <div id="shortLinkDropDown" class="hide">
+            <div class="shortLinkList">Snabblänk1</div>
+            <div class="shortLinkList">Snabblänk2</div>
+            <div class="shortLinkList">Snabblänk3</div>
+        </div>
         <div class="searchButton" id="searchButtonMobile">
             <img src="img/searchIcon.png" id="searchIconMobile"/>
         </div>
@@ -25,35 +30,342 @@
     <div id="menuPics" class="menuPics">
         <div class="imageWrapper" id="image1">
             <img src="img/menupic1.png" id="menuPic1" class="menuPicSize"/>
-            <div class="boxShadow">
-                <!--<img src="img/menulink1.png" id="bo"/>-->
-                <!--<img src="img/menuArrow.png" id="arrow1"/>-->
+            <div id="boxShadow1" class="boxShadow">
+                <div id="menuLinkWrapper1" class="menuLinkWrapper">
+                    <img src="img/menulink1.png" id="bo" class="menuLinks"/>
+                </div>
+                <img src="img/menuArrow.png" id="arrow1"/>
             </div>
         </div>
         <div class="imageWrapper" id="image2">
             <img src="img/menupic2.png" id="menuPic2" class="menuPicSize"/>
-            <div class="boxShadow">
-                <!--<img src="img/menulink2.png" id="naringsLiv"/>-->
-                <!--<img src="img/menuArrow.png" id="arrow2"/>-->
+            <div id="boxShadow2" class="boxShadow">
+                <div id="menuLinkWrapper2" class="menuLinkWrapper">
+                    <img src="img/menulink2.png" id="naringsLiv" class="menuLinks"/>
+                </div>
+                <img src="img/menuArrow.png" id="arrow2"/>
             </div>
         </div>
         <div class="imageWrapper" id="image3">
             <img src="img/menupic3.png" id="menuPic3" class="menuPicSize"/>
-            <div class="boxShadow">
-                <!--<img src="img/menulink3.png" id="paverka"/>-->
-                <!--<img src="img/menuArrow3.png" id="arrow3"/>-->
+            <div id="boxShadow3" class="boxShadow">
+                <div id="menuLinkWrapper3" class="menuLinkWrapper">
+                    <img src="img/menulink3.png" id="paverka" class="menuLinks"/>
+                </div>
+                <img src="img/menuArrow3.png" id="arrow3"/>
             </div>
         </div>
         <div class="imageWrapper" id="image4">
             <img src="img/menupic4.png" id="menuPic4" class="menuPicSize"/>
-            <div class="boxShadow">
-                <!--<img src="img/menuLink4.png" id="uppleva"/>-->
-                <!--<img src="img/menuArrow.png" id="arrow4"/>-->
+            <div id="boxShadow4" class="boxShadow">
+                <div id="menuLinkWrapper4" class="menuLinkWrapper">
+                    <img src="img/menuLink4.png" id="uppleva" class="menuLinks"/>
+                </div>
+                <img src="img/menuArrow.png" id="arrow4"/>
             </div>
         </div>
-        <img src="img/menushadow.png" class="menuShadow"/>
     </div>
     <div id="background">
+        <div class="dropDownContent hide" id="dropDown1">
+            <div class="dropDownBar" id="dropDownBar1">
+                <div class="dropDownBars dropBarsColor1"></div>
+                <div class="dropDownBars dropBarsColor2"></div>
+                <div class="dropDownBars dropBarsColor2"></div>
+                <div class="dropDownBars dropBarsColor2"></div>
+            </div>
+            <div class="DropDownCategoryWrapper">
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">POPULÄRA SIDOR</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Bostäder till salu</div>
+                            <div class="dropContentText">Parkering & parkeringsskiva</div>
+                            <div class="dropContentText">Simhallen</div>
+                            <div class="dropContentText">Lediga jobb</div>
+                            <div class="dropContentText">Matsedel grundskola</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">E-TJÄNSTER</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">E-bibliotek</div>
+                            <div class="dropContentText">E-service barnomsorg</div>
+                            <div class="dropContentText">Boka idrottslokal</div>
+                            <div class="dropContentText">Kursval gymnasiet</div>
+                            <div class="dropContentText">Blanketter</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">MEST SÖKT</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Skolschema</div>
+                            <div class="dropContentText">Ishallen</div>
+                            <div class="dropContentText">Lediga jobb</div>
+                            <div class="dropContentText">Förskola</div>
+                            <div class="dropContentText">Bygglov</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">FRÅGOR & SVAR INOM:</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Förskola</div>
+                            <div class="dropContentText">Grundskola</div>
+                            <div class="dropContentText">Äldreomsorg</div>
+                            <div class="dropContentText">Bygglov</div>
+                            <div class="dropContentText">Parkering</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="showMoreButton1" class="showMoreButton">
+                    <div class="showMoreTextWrapper">
+                        <div id="showMoreText1" class="showMoreText">Gå vidare till Bo</div>
+                    </div>
+                    <div class="showMoreButtonWrapper">
+                        <img src="img/showMoreButton.png" id="moreButton1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropDownContent hide" id="dropDown2">
+            <div class="dropDownBar" id="dropDownBar2">
+                <div class="dropDownBars dropBarsColor2"></div>
+                <div class="dropDownBars dropBarsColor1"></div>
+                <div class="dropDownBars dropBarsColor2"></div>
+                <div class="dropDownBars dropBarsColor2"></div>
+            </div>
+            <div class="DropDownCategoryWrapper">
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">POPULÄRA SIDOR</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Bostäder till salu</div>
+                            <div class="dropContentText">Parkering & parkeringsskiva</div>
+                            <div class="dropContentText">Simhallen</div>
+                            <div class="dropContentText">Lediga jobb</div>
+                            <div class="dropContentText">Matsedel grundskola</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">E-TJÄNSTER</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">E-bibliotek</div>
+                            <div class="dropContentText">E-service barnomsorg</div>
+                            <div class="dropContentText">Boka idrottslokal</div>
+                            <div class="dropContentText">Kursval gymnasiet</div>
+                            <div class="dropContentText">Blanketter</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dropDownImgWrapper">
+                    <div id="imgLink">En rubrik till ett block</div>
+                    <img src="img/dropdownImg.png" id="dropDownImg">
+                </div>
+                <div id="showMoreButton2" class="showMoreButton">
+                    <div class="showMoreTextWrapper">
+                        <div id="showMoreText2" class="showMoreText">Gå vidare till Närlingsliv</div>
+                    </div>
+                    <div class="showMoreButtonWrapper">
+                        <img src="img/showMoreButton.png" id="moreButton2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropDownContent hide" id="dropDown3">
+            <div class="dropDownBar" id="dropDownBar3">
+                <div class="dropDownBars dropBarsColor2"></div>
+                <div class="dropDownBars dropBarsColor2"></div>
+                <div class="dropDownBars dropBarsColor1"></div>
+                <div class="dropDownBars dropBarsColor2"></div>
+            </div>
+            <div class="DropDownCategoryWrapper">
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">POPULÄRA SIDOR</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Bostäder till salu</div>
+                            <div class="dropContentText">Parkering & parkeringsskiva</div>
+                            <div class="dropContentText">Simhallen</div>
+                            <div class="dropContentText">Lediga jobb</div>
+                            <div class="dropContentText">Matsedel grundskola</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">E-TJÄNSTER</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">E-bibliotek</div>
+                            <div class="dropContentText">E-service barnomsorg</div>
+                            <div class="dropContentText">Boka idrottslokal</div>
+                            <div class="dropContentText">Kursval gymnasiet</div>
+                            <div class="dropContentText">Blanketter</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">MEST SÖKT</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Skolschema</div>
+                            <div class="dropContentText">Ishallen</div>
+                            <div class="dropContentText">Lediga jobb</div>
+                            <div class="dropContentText">Förskola</div>
+                            <div class="dropContentText">Bygglov</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">FRÅGOR & SVAR INOM:</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Förskola</div>
+                            <div class="dropContentText">Grundskola</div>
+                            <div class="dropContentText">Äldreomsorg</div>
+                            <div class="dropContentText">Bygglov</div>
+                            <div class="dropContentText">Parkering</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="showMoreButton3" class="showMoreButton">
+                    <div class="showMoreTextWrapper">
+                        <div id="showMoreText3" class="showMoreText">Gå vidare till Påverka</div>
+                    </div>
+                    <div class="showMoreButtonWrapper">
+                        <img src="img/showMoreButton.png" id="moreButton3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropDownContent hide" id="dropDown4">
+            <div class="dropDownBar" id="dropDownBar4">
+                <div class="dropDownBars dropBarsColor2"></div>
+                <div class="dropDownBars dropBarsColor2"></div>
+                <div class="dropDownBars dropBarsColor2"></div>
+                <div class="dropDownBars dropBarsColor1"></div>
+            </div>
+            <div class="DropDownCategoryWrapper">
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">POPULÄRA SIDOR</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Bostäder till salu</div>
+                            <div class="dropContentText">Parkering & parkeringsskiva</div>
+                            <div class="dropContentText">Simhallen</div>
+                            <div class="dropContentText">Lediga jobb</div>
+                            <div class="dropContentText">Matsedel grundskola</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">E-TJÄNSTER</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">E-bibliotek</div>
+                            <div class="dropContentText">E-service barnomsorg</div>
+                            <div class="dropContentText">Boka idrottslokal</div>
+                            <div class="dropContentText">Kursval gymnasiet</div>
+                            <div class="dropContentText">Blanketter</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">MEST SÖKT</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Skolschema</div>
+                            <div class="dropContentText">Ishallen</div>
+                            <div class="dropContentText">Lediga jobb</div>
+                            <div class="dropContentText">Förskola</div>
+                            <div class="dropContentText">Bygglov</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropDownCategory">
+                    <div class="dropCategoryContent">
+                        <div class="dropCategoryHeading">
+                            <div class="dropHeadingText">FRÅGOR & SVAR INOM:</div>
+                        </div>
+                        <div class="dropCategoryUnderLine"></div>
+                        <div class="dropCategoryTextContent">
+                            <div class="dropContentText">Förskola</div>
+                            <div class="dropContentText">Grundskola</div>
+                            <div class="dropContentText">Äldreomsorg</div>
+                            <div class="dropContentText">Bygglov</div>
+                            <div class="dropContentText">Parkering</div>
+                            <div class="dropContentText">Visa alla</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="showMoreButton4" class="showMoreButton">
+                    <div class="showMoreTextWrapper">
+                        <div id="showMoreText4" class="showMoreText">Gå vidare till Påverka</div>
+                    </div>
+                    <div class="showMoreButtonWrapper">
+                        <img src="img/showMoreButton.png" id="moreButton4">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="searchShadow">
                 <div id="searchField">
                     <div id="searchBarDesktop">
@@ -61,22 +373,111 @@
                     </div>
                     <div class="searchButton" id="searchButtonDesktop">
                         <img src="img/searchIcon.png" id="searchIconDesktop"/>
-                        <!--<div class="searchButton" id="searchButtonDesktop"></div>-->
                     </div>
                 </div>
-                <!--<div id="mostSearched">Mest sökt:</div>-->
-                <!--<div id="mostSearch">-->
+            <div id="mostSearchedField">
+                <div id="mostSearched">
+                    <div id="searched">Mest sökt:</div>
+                </div>
+                <div id="searchedLinks">
+                    <div class="mostSearchedBoxes">
+                        <a href="" class="mostSearchedLink">lediga jobb</a>
+                    </div>
+                    <div class="mostSearchedBoxes">
+                        <a href="" class="mostSearchedLink">förskola</a>
+                    </div>
+                    <div class="mostSearchedBoxes">
+                        <a href="" class="mostSearchedLink">äldreomsorg</a>
+                    </div>
+                    <div class="mostSearchedBoxes">
+                        <a href="" class="mostSearchedLink">skolwebben</a>
+                    </div>
+                    <div class="mostSearchedBoxes">
+                        <a href="" class="mostSearchedLink">e-tjänster</a>
+                    </div>
+                    <div class="mostSearchedBoxes">
+                        <a href="" class="mostSearchedLink">äldreomsorg</a>
+                    </div>
+                </div>
+                <div id="showMore">
+                    <div id="showMoreLinkBox">
+                        <a href="" id="showMoreLink">Visa fler</a>
+                    </div>
+                    <div id="showMoreButtonBox">
+                        <img src="img/showMore.png" id="showMoreButton">
+                    </div>
+                </div>
+            </div>
         </div>
-            <!--<a href="" class="mostSearchedLink" id="mostSearched1">lediga jobb</a>-->
-            <!--<a href="" class="mostSearchedLink" id="mostSearched2">förskola</a>-->
-            <!--<a href="" class="mostSearchedLink" id="mostSearched3">äldreomsorg</a>-->
-            <!--<a href="" class="mostSearchedLink" id="mostSearched4">skolwebben</a>-->
-            <!--<a href="" class="mostSearchedLink" id="mostSearched5">e-tjänster</a>-->
-            <!--<a href="" class="mostSearchedLink" id="mostSearched6">äldreomsorg</a>-->
-            <!--<a href="" id="showMore">Visa fler</a>-->
-            <!--<img src="img/showMore.png" id="showMoreButton">-->
+        <div id="leftContent">
+            <div id="newsContent1">
+                <div class="titleBox">
+                    <div id="title1" class="newsTitle">
+                        <div class="news">Nyheter</div>
+                    </div>
+                </div>
+                <div class="dateBox">
+                    <div class="dates">
+                        <div class="infoHeight2 infoStyle infoMargin1">2016-02-25</div>
+                        <div class="infoHeight1 infoStyle">2016-02-25</div>
+                        <div class="infoHeight2 infoStyle">2016-02-25</div>
+                        <div class="infoHeight2 infoStyle">2015-11-24</div>
+                    </div>
+                </div>
+                <div class="infoContent">
+                    <div class="infoStyle">
+                        <div class="infoHeight2 infoMargin4">Nytt nummer av Svedala nytt!</div>
+                        <div class="infoHeight1">Vad tycker du om kommunens nya renhållningsordning?</div>
+                        <div class="infoHeight2">Öppet hus på NFU inför gymnasievalet</div>
+                        <div class="infoHeight3">Fira första advent i Svedala centrum 29e november</div>
+                    </div>
+                    <div id="infoButton">
+                        <div class="infoButtonText">
+                            <a href="#"><div id="ibt">Visa fler nyheter</div></a>
+                        </div>
+                        <div class="infoButtonButton">
+                            <img src="img/showMore.png" id="ibb">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rightContent">
+            <div id="newsContent2">
+                <div class="titleBox">
+                    <div id="title2" class="newsTitle">
+                        <div class="news">Vad händer i Svedala?</div>
+                    </div>
+                </div>
+                <div class="dateBox">
+                    <div class="dates">
+                        <div class="infoHeight1 infoStyle infoMargin3">IDAG</div>
+                        <div class="infoHeight2 infoStyle">IDAG</div>
+                        <div class="infoHeight2 infoStyle">IDAG</div>
+                        <div class="infoHeight2 infoStyle">IDAG</div>
+                    </div>
+                </div>
+                <div class="infoContent">
+                    <div class="infoStyle">
+                        <div class="infoHeight1 infoMargin4">Konstutställning av målningar i blandteknik, kollage och akryl på Svedala Galleri</div>
+                        <div class="infoHeight2">Julutställningar på Statarmuseet</div>
+                        <div class="infoHeight2">Vik din egen pappersgran på bibilioteken</div>
+                        <div class="infoHeight2">Välgörenhetskonsert i Svedala kyrka</div>
+                    </div>
+                    <div id="infoLink">
+                        <div class="infoButtonText">
+                            <a href="#"><div id="ilt">Visa fler nyheter</div></a>
+                        </div>
+                        <div class="infoButtonButton">
+                            <img src="img/showMore.png" id="ilb">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+    <script src="toggledMenu.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
