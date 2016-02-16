@@ -13,7 +13,7 @@ a {
 }
 
 #content {
-    max-width: 1366px;
+    max-width: 1290px;
     margin: 0 auto;
 }
 
@@ -26,6 +26,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 695px;
+    max-width:1290px;
     top: 0;
     bottom:0;
 }
@@ -235,10 +236,11 @@ input:focus {
 .dropDownContent  {
     position: absolute;
     background-color: white;
-    min-width: 100%;
+    width: 100%;
+    max-width: 1366px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     height: 380px;
-    left:0;
+    max-height:1290px;
     z-index:1;
     opacity:1;
     transition:opacity linear 0.15s;
@@ -496,6 +498,8 @@ input:focus {
 #searchButtonMobile {
     display: none;
 }
+
+
 
 #searchIconDesktop {
     display: block;
@@ -786,7 +790,7 @@ input:focus {
 
 @media (max-width: 1200px) {
     #showMoreButton2 {
-        margin:1% 0 0 63%;
+        margin:1% 0 0 62%;
     }
 }
 
