@@ -237,10 +237,10 @@ input:focus {
     position: absolute;
     background-color: white;
     width: 100%;
-    max-width: 1366px;
+    max-width: 1290px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     height: 380px;
-    max-height:1290px;
+    max-height:1366px;
     z-index:1;
     opacity:1;
     transition:opacity linear 0.15s;
