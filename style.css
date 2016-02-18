@@ -35,6 +35,7 @@ input:focus {
     background: url(img/headerLila.png) no-repeat;
     height: 160px;
     width: 100%;
+    max-width:1290px;
 }
 
 #logo {
@@ -86,8 +87,9 @@ input:focus {
     min-height: 20px;
     min-width: 90px;
     background-color: white;
-    float: right;
-    margin: 0 0 0 90.5%;
+    right: 2.5%;
+    /*float: right;*/
+    /*margin: 0 0 0 90.5%;*/
     z-index:1;
     opacity:1;
     transition:opacity linear 0.15s;
@@ -788,9 +790,230 @@ input:focus {
     margin: 0 0 0 0;
 }
 
+@media (min-width: 1310px) {
+    #shortLinkDropDown {
+        right:3%;
+    }
+}
+
+@media (min-width: 1330px) {
+    #shortLinkDropDown {
+        right:4%;
+    }
+}
+
+@media (min-width: 1360px) {
+    #shortLinkDropDown {
+        right:5%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #shortLinkDropDown {
+        right:6%;
+    }
+}
+
+@media (min-width: 1425px) {
+    #shortLinkDropDown {
+        right:7%;
+    }
+}
+
+@media (min-width: 1455px) {
+    #shortLinkDropDown {
+        right:8%;
+    }
+}
+
+@media (min-width: 1485px) {
+    #shortLinkDropDown {
+        right:8.5%;
+    }
+}
+
+@media (min-width: 1510px) {
+    #shortLinkDropDown {
+        right:9.5%;
+    }
+}
+
+@media (min-width: 1540px) {
+    #shortLinkDropDown {
+        right:10%;
+    }
+}
+
+@media (min-width: 1565px) {
+    #shortLinkDropDown {
+        right:10.5%;
+    }
+}
+
+@media (min-width: 1580px) {
+    #shortLinkDropDown {
+        right:11%;
+    }
+}
+
+@media (min-width: 1605px) {
+    #shortLinkDropDown {
+        right:11.5%;
+    }
+}
+
+@media (min-width: 1625px) {
+    #shortLinkDropDown {
+        right:12%;
+    }
+}
+
+@media (min-width: 1645px) {
+    #shortLinkDropDown {
+        right:12.5%;
+    }
+}
+
+@media (min-width: 1665px) {
+    #shortLinkDropDown {
+        right:13%;
+    }
+}
+
+@media (min-width: 1690px) {
+    #shortLinkDropDown {
+        right:13.5%;
+    }
+}
+
+@media (min-width: 1710px) {
+    #shortLinkDropDown {
+        right:14%;
+    }
+}
+
+@media (min-width: 1735px) {
+    #shortLinkDropDown {
+        right:14.5%;
+    }
+}
+
+@media (min-width: 1755px) {
+
+    #shortLinkDropDown {
+        right:15%;
+    }
+}
+
+@media (min-width: 1780px) {
+    #shortLinkDropDown {
+        right:15.5%;
+    }
+}
+
+@media (min-width: 1810px) {
+    #shortLinkDropDown {
+        right:16%;
+    }
+}
+
+@media (min-width: 1830px) {
+    #shortLinkDropDown {
+        right:16.5%;
+    }
+}
+
+@media (min-width: 1860px) {
+    #shortLinkDropDown {
+        right:17%;
+    }
+}
+
+@media (min-width: 1890px) {
+    #shortLinkDropDown {
+        right:17.5%;
+    }
+}
+
+@media (min-width: 1910px) {
+    #shortLinkDropDown {
+        right:18%;
+    }
+}
+
+@media (min-width: 1940px) {
+    #shortLinkDropDown {
+        right:18.5%;
+    }
+}
+
+@media (min-width: 1980px) {
+    #shortLinkDropDown {
+        right:19%;
+    }
+}
+
+@media (min-width: 2010px) {
+    #shortLinkDropDown {
+        right:19.5%;
+    }
+}
+
+@media (min-width: 2040px) {
+    #shortLinkDropDown {
+        right:20%;
+    }
+}
+
+@media (min-width: 2080px) {
+    #shortLinkDropDown {
+        right:20.5%;
+    }
+}
+
+@media (min-width: 2115px) {
+    #shortLinkDropDown {
+        right:21%;
+    }
+}
+
+@media (min-width: 2145px) {
+    #shortLinkDropDown {
+        right:21.5%;
+    }
+}
+
+@media (min-width: 2185px) {
+    #shortLinkDropDown {
+        right:22%;
+    }
+}
+
+@media (min-width: 2220px) {
+    #shortLinkDropDown {
+        right:22.5%;
+    }
+}
+
+@media (min-width: 2250px) {
+    #shortLinkDropDown {
+        right:23%;
+    }
+}
+
+@media (min-width: 2300px) {
+    #shortLinkDropDown {
+        right:23.5%;
+    }
+}
+
 @media (max-width: 1200px) {
     #showMoreButton2 {
         margin:1% 0 0 62%;
+    }
+
+    #shortLinkDropDown {
+        right:2%;
     }
 }
 
@@ -805,7 +1028,7 @@ input:focus {
     }
 
     #shortLinkDropDown {
-        margin: 0 0 0 89.7%;
+        right:2%;
     }
 }
 
@@ -832,7 +1055,7 @@ input:focus {
     }
 
     #shortLinkDropDown {
-        margin: 0 0 0 88.7%;
+        right:3%;
     }
 }
 
