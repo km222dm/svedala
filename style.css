@@ -312,7 +312,7 @@ input:focus {
 
 .dropCategoryUnderLine {
     width: 100%;
-    height:1%;
+    height:0.5%;
     background-color: grey;
 }
 
@@ -365,21 +365,55 @@ input:focus {
     margin: 1% 4% 0 0;
 }
 
-.showMoreTextWrapper {
+#showMoreTextWrapper1 {
     float: left;
     height: 100%;
-    width: 75%;
+    width: 71%;
+    text-align: right;
+}
+#showMoreTextWrapper2 {
+    float: left;
+    height: 100%;
+    width: 76%;
+    text-align: right;
+}
+#showMoreTextWrapper3 {
+    float: left;
+    height: 100%;
+    width: 73%;
+}
+#showMoreTextWrapper4 {
+    float: left;
+    height: 100%;
+    width: 73%;
 }
 
-.showMoreButtonWrapper {
+#showMoreButtonWrapper1 {
     float: right;
-    width: 25%;
+    width: 29%;
+    height: 100%;
+}
+
+#showMoreButtonWrapper2 {
+    float: right;
+    width: 24%;
+    height: 100%;
+}
+
+#showMoreButtonWrapper3 {
+    float: right;
+    width: 26.5%;
+    height: 100%;
+}
+
+#showMoreButtonWrapper4 {
+    float: right;
+    width: 27%;
     height: 100%;
 }
 
 .showMoreText {
     height: 100%;
-    width: 86%;
     font-family: sans-serif;
     font-size: 75%;
     float:right;
@@ -388,31 +422,39 @@ input:focus {
 }
 
 #showMoreText1 {
-    margin: 13% 0 0 0;
+    margin: 16.5% 0 0 0;
+    width: 86%;
+    text-align: right;
 }
 
 #showMoreText2 {
-    margin: 8% 0 0 0;
+    margin: 9% 0 0 0;
+    width: 86%;
+    text-align:right;
 }
 
 #showMoreText3 {
-    margin: 11% 0 0 0;
+    margin: 13.5% 0 0 0;
+    width: 87%;
+    text-align: right;
 }
 
 #showMoreText4 {
-    margin: 11% 0 0 0;
+    margin: 13.5% 0 0 0;
+    width: 87%;
+    text-align: right;
 }
 
 #moreButton1 {
-    margin: 22% 0 0 0;
+    margin: 23.5% 0 0 0;
 }
 
 #moreButton2 {
-    margin: 12% 0 0 0;
+    margin: 14% 0 0 0;
 }
 
 #moreButton3 {
-    margin: 22% 0 0 0;
+    margin: 23% 0 0 0;
 }
 
 #moreButton4 {
@@ -550,7 +592,7 @@ input:focus {
     font-size: 11px;
     font-family: sans-serif;
     font-weight: lighter;
-    padding: 5px 5px 5px 5px;
+    padding: 5.5px 5px 5px 5px;
     color: white;
     text-align: center;
 }
@@ -576,7 +618,7 @@ input:focus {
 #showMoreLinkBox {
     width: 61%;
     height: 100%;
-    margin: 18% 0 0 0;
+    margin: 21% 0 0 0;
     float:left;
 }
 
@@ -594,7 +636,7 @@ input:focus {
 }
 
 #showMoreButton {
-    margin: 22% 0 0 0;
+    margin: 27% 0 0 0;
     float:right;
 }
 
@@ -765,19 +807,19 @@ input:focus {
     float:right;
     color: darkslategrey;
     font-weight: 500;
-    margin: 8% 0 0 0;
+    margin: 10% 0 0 0;
 }
 
 #ibb {
     float:left;
-    margin: 5% 0 0 0;
+    margin: 8% 0 0 0;
 }
 
 #ilt {
     font-family: sans-serif;
     font-size: 70%;
     float:right;
-    margin: 5% 0 0 0;
+    margin: 7% 0 0 0;
     color: darkslategrey;
 }
 
